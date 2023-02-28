@@ -1,0 +1,69 @@
+html{
+scroll-behavior: smooth;
+}
+
+body{
+  max-width: 1000px;
+  margin: 0 auto;  
+  background: rgb(229, 229, 255);
+  color: #000000;
+  display: grid;
+  
+ 
+  
+}
+h1{
+  color: blue;
+  border-color: white;
+  border-style: solid;
+  border-width: 1pixel;
+}
+img { 
+  max-width:100%;
+  height: auto;
+}
+
+.wrapper div{
+  background-color: rgba(171, 237, 237, 0);  
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+}
+
+@media screen and (min-width:512px) {
+  
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+  }
+.upp{
+  width: 40px;
+  height:40px;
+  bottom:50px;
+  right:50px;
+  background-color: rgb(249, 141, 74);
+  position: fixed;
+border-radius: 50%;
+color:white;
+font-size:2em;
+text-align: center;}
+
+
+
+
+
+}
+

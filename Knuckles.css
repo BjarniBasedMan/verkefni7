@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    }
+    
+body{
+      max-width: 1000px;
+      margin: 0 auto;  
+      background: rgb(248, 200, 160);
+      color: #000000;
+      display: grid;
+    grid-template-areas: 
+    "h h h  h"
+    "n n n  n"
+    "a a a a"
+    "v v v v"
+    "ha ha ha ha"
+    "f f f f "
+}
+h1{
+    font-family: 'Bebas Neue'; 
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+video{
+    max-width: 100%;
+    height: auto
+}
+
+.upp{
+    width: 40px;
+    height:40px;
+    bottom:50px;
+    right:50px;
+    background-color: rgb(74, 88, 249);
+    position: fixed;
+  border-radius: 50%;
+  color:white;
+  font-size:2em;
+  text-align: center;}
+
+.header{
+    grid-area: h;
+    display:grid
+    justify contents center;
+    background-color: rgb(171, 237, 237); 
+    grid-gap: 2em;
+   
+}
+     
+
+.navbar{
+    grid-area: n;
+    /* height: 3em; */
+    display: grid
+    grid-template-rows 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: antiquewhite;
+
+}
+.vinstri{
+    grid-area:v;
+    background-color: cadetblue;
+
+
+
+}
+.adal{
+    grid-area: a;
+    background-color: coral;
+    
+}
+.haegri{
+    grid-area: ha;
+    background-color: rgb(174, 89, 216);
+
+}
+.mynd1{
+grid-area:m1;
+
+}
+.video1{
+    grid-area:v1;
+}
+.lag{
+    grid-area: l;
+}
+.greining{
+    grid-area: gr;
+    background-color: indianred;
+}
+.fotur{
+    grid-area: f;
+    display: grid;
+    justify-content: center;
+    background-color: deeppink;
+}
+@media screen and (min-width:600px){
+    body{
+        max-width: 1000px;
+        margin: 0 auto;  
+        background: rgb(246, 177, 121);
+        color: #000000;
+        display: grid;
+    grid-template-areas: 
+    "h h h  h"
+    "v n n  n"
+    "v a a  ha"
+    "f f f f "
+    }
+}
+
+
+@media screen and (min-width:768px){
+    body{ 
+        max-width: 1000px;
+        margin: 0 auto;  
+        background: rgb(234, 154, 89);
+        color: #000000;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    grid-template-areas: 
+    "h h h h h"
+    "l l l l l"
+    "n n n n n"
+    "v a a ha ha"
+    "v1 v1 v1 ha ha"
+    "gr gr gr ha ha"
+    "gr gr gr ha ha"
+    "m1 m1 m1 ha ha"
+    ;
+    gap: 5px;
+}
+
+
+  }

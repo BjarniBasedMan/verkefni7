@@ -1,0 +1,2 @@
+# Ég ætla að fjalla um japanska tónskáldið Tomoya Ohtani. Tomoya Ohtani vinnur hjá SEGA og semur tónlist fyrir Sonic the Hedgehog leikinna. Tónlistin hans er oft blanda af synfóníu og rokki, sem mér finnst vera mjög flott!
+#Hérna eru nokkur vel valin lög úr vel völdum leikjum: "Undefeatable (feat. Kellin Quinn)" úr Sonic Frontiers (2022), "Rooftop Run" úr Sonic Unleashed (2009), "Crisis City -The Flame-Skyscraper-Whirlwind-Tornado" úr Sonic the Hedgehog (2006), "Desert Ruins - Zone1" úr Sonic Lost World (2013)

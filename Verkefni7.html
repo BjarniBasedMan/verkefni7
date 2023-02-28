@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='utf-8' > 
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="Verkefni7.css">
+
+    
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Tónskáld</th>
+                <th scope="col">Lag</th>
+                <th scope="col">Leikur</th>
+                <th scope="col">Ártal</th>
+            </tr>
+
+        </thead>
+        <tbody>
+           
+            <tr>
+                <td data-label="Tónskáld">Tomoya Ohtani</td>
+                <td data-label="Lag">Pumpkin Soup</td>
+                <td data-label="Amount">Sonic Adventure 2</td>
+                <td data-label="Period">2001</td>
+            </tr>
+            <tr>
+                <td data-label="Tónskáld">Tomoya Ohtani</td>
+                <td data-label="Lag">Crisis City</td>
+                <td data-label="Amount">Sonic the Hedgehog</td>
+                <td data-label="Period">2006</td>
+            </tr>
+            <tr>
+                <td data-label="Tónskáld">Tomoya Ohtani</td>
+                <td data-label="Lag">Rooftop Run</td>
+                <td data-label="Amount">Sonic Unleashed</td>
+                <td data-label="Period">2009</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td data-label="Tónskáld">
+                    <a href="BadassPortal.jpg">BadassPortal</a>
+                </td>
+                <td data-label="Lag">Footer</td>
+                <td data-label="Amount">Footer</td>
+                <td data-label="Period">Footer</td>
+
+            </tr>
+      
+        </tfoot>
+
+    </table>
+    <form action="action_page.phb" method="post"></form>
+       <div>
+            <label for fname>First name</label>
+            <input type="text" id="fname" name="fname" placeholder="Sonic" required>
+         </div>
+         <br>
+        <div>
+            <label for lname>Last name</label>
+            <input type="text" id="lname" name="lname" placeholder="Hedgehog" required>
+        </div>
+        <br>
+        <div>
+            <label for password>Password</label>
+            <input type="password" required id="password" name="password">
+        </div>
+        <br>
+        <div>
+            <label for password>Email</label>
+            <input type="email" required id="email" name="email" placeholder="Blueblur@gmail.com">
+        </div>
+        <br>
+        <div>
+            <label for phone>Phone number</label>
+            <input type="tel" id="Phone" name="Phone" placeholder="123 4567">
+        </div>
+        <br>
+        <div>
+            <label>Birthdate</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+        <br>
+        <div>
+            <label for="Hedgehog">Hedgehog</label>
+            <input type="radio" id="Hedgehog" name="species" value="Hedgehog">
+
+            <label for="Fox">Fox</label>
+            <input type="radio" id="Fox" name="species" value="Fox">
+
+            <label for="Echidna">Echidna</label>
+            <input type="radio" id="Echidna" name="species" value="Echidna">
+        </div>
+        <br>
+        <div>
+            <label for="checkbox">Subscribe to newsletter</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+
+        <div>
+            <input type="reset">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+       
+       
+    </form>
+
+ 
+</body>

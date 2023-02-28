@@ -1,0 +1,131 @@
+html{
+    scroll-behavior: smooth;
+    }
+    
+body{
+      max-width: 1000px;
+      margin: 0 auto;  
+      background: rgb(248, 200, 160);
+      color: #000000;
+      display: grid;
+    grid-template-areas: 
+    "h"
+    "m1";
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+video{
+    max-width: 100%;
+    height: auto
+}
+.upp{
+    width: 40px;
+    height:40px;
+    bottom:50px;
+    right:50px;
+    background-color: rgb(249, 141, 74);
+    position: fixed;
+  border-radius: 50%;
+  color:white;
+  font-size:2em;
+  text-align: center;}
+
+.header{
+    grid-area: h;
+    display:grid
+    justify contents center;
+    background-color: rgb(156, 202, 100); 
+    grid-gap: 2em;
+     
+}
+.navbar{
+    grid-area: n;
+    /* height: 3em; */
+    display: grid
+    grid-template-rows 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: antiquewhite;
+
+}
+.vinstri{
+    grid-area:v;
+    background-color: rgb(238, 237, 213);
+
+
+
+}
+.adal{
+    grid-area: a;
+    background-color: rgba(249, 125, 36, 0);
+    
+}
+.haegri{
+    grid-area: ha;
+    background-color: rgb(212, 172, 111);
+
+}
+.mynd1{
+grid-area:m1;
+
+}
+.mynd2{
+    grid-area:m2;
+}
+.hvað{
+    grid-area: hva;
+    background-color: rgba(255, 255, 255, 0);
+}
+.video1{
+    grid-area:v1;
+}
+.lag{
+    grid-area: l;
+}
+.greining{
+    grid-area: gr;
+    background-color: rgb(143, 194, 108);
+}
+.fotur{
+    grid-area: f;
+    display: grid;
+    justify-content: center;
+    background-color: deeppink;
+}
+@media screen and (min-width:600px){
+    body{
+        max-width: 1000px;
+        margin: 0 auto;  
+        background: rgb(246, 177, 121);
+        color: #000000;
+        display: grid;
+    grid-template-areas: 
+    "h h h h"        
+    "m1 m1 m1 m1";
+    }
+}
+
+
+@media screen and (min-width:768px){
+    body{ 
+        margin: 0 auto;  
+        background: rgb(222, 226, 246);
+        color: #000000;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h v1 v1 v1"
+    "l l l l l"
+    "hva hva m1 m1 m1"
+    "v v v v v"
+    
+    "gr gr gr gr m2"
+
+    ;
+    gap: 5px;
+}
+
+  
+}

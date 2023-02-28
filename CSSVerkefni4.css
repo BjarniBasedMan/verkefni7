@@ -1,0 +1,81 @@
+
+body{
+    display: grid;
+grid-template-areas: 
+"h h h  h"
+"n n n  n"
+"a a a a"
+"v v v v"
+"ha ha ha ha"
+"f f f f "
+}
+
+
+
+
+.header{
+    grid-area: h;
+    display:grid
+    justify contents center;
+    background-color: rgb(171, 237, 237); 
+    grid-gap: 2em;
+     
+}
+.navbar{
+    grid-area: n;
+    height: 3em;
+    display: grid
+    grid-template-rows 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: antiquewhite;
+
+}
+.vinstri{
+    grid-area:v;
+    background-color: cadetblue;
+
+
+
+}
+.adal{
+    grid-area: a;
+    background-color: coral;
+}
+.haegri{
+    grid-area: ha;
+    background-color: darkorchid;
+
+}
+.fotur{
+    grid-area: f;
+    display: grid;
+    justify-content: center;
+    background-color: deeppink;
+}
+@media screen and (min-width:600px){
+    body{
+        display: grid;
+    grid-template-areas: 
+    "h h h  h"
+    "v n n  n"
+    "v a a  ha"
+    "f f f f "
+    }
+}
+
+
+@media screen and (min-width:768px){
+    body{
+        display: grid;
+    grid-template-areas: 
+    "h h h h h"
+    "n n n n n"
+    "ha a a a v"
+    "f f f f f"
+
+
+}
+
+
+  }
